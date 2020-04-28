@@ -1,0 +1,12 @@
+1. 在router/index中，通过以下格式映射路由：
+
+//component要提前import
+ routes: [
+    {
+      path: '/',
+      component: Login
+    }
+ ]
+
+
+2. 前后端分离的项目，前端请求后端的数据要在config下的index.js中修改以下配置：proxyTable
